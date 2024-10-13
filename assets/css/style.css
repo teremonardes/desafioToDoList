@@ -1,0 +1,14 @@
+#detalles {
+    display: flex;
+    flex-direction:row;
+    gap: 5rem;
+}
+
+#borrar {
+
+    background-color: red;
+}
+
+#completada {
+    background-color: green;
+}
