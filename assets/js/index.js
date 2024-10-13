@@ -16,7 +16,7 @@ function renderizarTareas() {
     let contenidoHTML = '';
     for (const tarea of tareas) {
       const estado = tarea.completada ? "✅" : "❌";
-      contenidoHTML += `<li>${tarea.id}: ${tarea.nombre} ${estado}<button id="borrar" onclick="borrar(${tarea.id})">Eliminar</button></li> 
+      contenidoHTML += `<li>${tarea.id}: ${tarea.nombre} ${estado}<button id="borrar" onclick="borrar(${tarea.id})">Eliminar</button> 
       <button onclick="completar(${tarea.id})"
       id="completada" >Completada</button></li>`;
     }
